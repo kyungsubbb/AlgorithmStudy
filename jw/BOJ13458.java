@@ -20,15 +20,14 @@ public class BOJ13458 {
 		
 		for(int i=0; i<n; i++) {
 			count++;
-			rooms[i] -= b;//°¢°¢ÀÇ ½ÃÇèÀå¿¡ ÃÑ °¨µ¶°üÀÌ ¿ÀÁ÷ 1¸íÀÌ ÀÖ¾î¾ßÇÑ´Ù. 
-//			System.out.println("i : "+i+" count: "+count +" rooms:" +rooms[i]);
-			if(rooms[i] > 0) {//À½¼ö°¡ ¾Æ´Ï¸é, ºÎ°¨µ¶°üÀÌ ÇÊ¿äÇÔ.
+			rooms[i] -= b;//ê°ê°ì˜ ì‹œí—˜ìž¥ì— ì´ ê°ë…ê´€ì´ ì˜¤ì§ 1ëª…ì´ ìžˆì–´ì•¼í•œë‹¤. 
+
+			if(rooms[i] > 0) {//ìŒìˆ˜ê°€ ì•„ë‹ˆë©´, ë¶€ê°ë…ê´€ì´ í•„ìš”í•¨.
 				
 				count += (rooms[i]/c);
-//				System.out.println("³ª´©±âi : "+i+" count: "+count +" rooms:" +rooms[i]);
+
 				if(rooms[i] %c > 0) {
 					count++;
-//					System.out.println("¾ØÆÛi : "+i+" count: "+count +" rooms:" +rooms[i]);
 					
 				}
 			}
