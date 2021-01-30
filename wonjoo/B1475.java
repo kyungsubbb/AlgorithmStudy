@@ -1,5 +1,3 @@
-package wonjoo;
-
 import java.util.Scanner;
 //방 번호
 public class B1475 {
