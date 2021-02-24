@@ -1,11 +1,11 @@
 package coding;
-
+//https://www.acmicpc.net/problem/14888
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ_14888_¿¬»êÀÚ_³¢¿ö³Ö±â {
+public class BOJ_14888_Â¿Â¬Â»ÃªÃ€Ãš_Â³Â¢Â¿Ã¶Â³Ã–Â±Ã¢ {
 	static int max=Integer.MIN_VALUE;
 	static int min=Integer.MAX_VALUE;
 	static int[] nums;
